@@ -16,7 +16,8 @@ int main()
     cout<<" Enter decimal : ";
     cin>>decimal;
 
-    // int result=1;
+    // int cpy1=decimal;
+    // int result=0;
 
     // while(decimal!=0)
     // {
@@ -25,7 +26,24 @@ int main()
     //     decimal = decimal/2;
     // }
 
-    // reverse result 
+    // int cpy2=result;
+    // result=0;
+
+    // while(cpy2>0)
+    // {
+    //     int remainder = cpy2%10;
+    //     result=result*10+remainder;
+    //     cpy2=cpy2/10;
+    // }
+
+    // if(cpy1%2==0)
+    // {
+    //     while(cpy1%2!=1)
+    //     {
+    //         result=result*10;
+    //         cpy1=cpy1/2;
+    //     }
+    // }
 
     int result = binary(decimal);
     
