@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>     //factorial recursion
 using namespace std;
 
 int factorial(int num)
