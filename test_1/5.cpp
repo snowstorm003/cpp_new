@@ -10,7 +10,7 @@ int main()
 
     if((year%100==0) && (year%400==0))
         cout<<" Leap year";
-    else if((year%100!=0) && (year%4))
+    else if((year%100!=0) && (year%4==0))
         cout<<" Leap year";
     else   
         cout<<" Non-leap year";
