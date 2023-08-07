@@ -1,4 +1,4 @@
-#include <iostream>              //swap 2 number without 3rd variable
+#include <iostream>         //swap 2 number without 3rd variable
 using namespace std;
 
 int main()
