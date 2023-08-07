@@ -13,10 +13,12 @@ int main()
             cout << " ";
         for (int k = 1; k <= counter; k++)
         {
-            if (k % 2 == 0)
-                cout << "^";
+            if(k==1 || k==counter)
+                cout<<"*";
+            else if(i==row)
+                cout<<"*";
             else
-                cout << "*";
+                cout<<" ";
         }
         counter += 2;
         cout << "\n";
