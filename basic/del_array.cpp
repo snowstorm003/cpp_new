@@ -19,8 +19,8 @@ int main()
 
     int position;
 
-    cout<<" Enter position for deletion : ";
-    cin>>position;
+    cout<<" Enter position for deletion : ";            //position starting from index 0
+    cin>>position;      
 
     delete_array_element(arr, current_size, position);
 
