@@ -4,11 +4,14 @@ using namespace std;
 void reverse(int arr[], int arr2[], int size)
 {
     int j=0;
-    for(int i=size-1; i>=0; i--)
+    for(int i=size-1; i>=0; i--)        
     {
         arr2[i]=arr[j];
         j++;
     }
+
+    for(int i=0; i<size; i++)       //better approach
+        arr2[i]=arr[size-i-1];
 }
 
 int main()
