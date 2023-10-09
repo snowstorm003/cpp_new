@@ -1,3 +1,4 @@
+//union of two arrays
 
 #include <bits/stdc++.h>
 using namespace std;

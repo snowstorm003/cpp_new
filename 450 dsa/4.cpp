@@ -1,3 +1,5 @@
+//move all negative elements to right side without changing the order
+
 #include <bits/stdc++.h>
 using namespace std;
 
