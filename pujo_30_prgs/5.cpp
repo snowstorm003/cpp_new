@@ -1,3 +1,5 @@
+//5. Write a C++ program to check if a number is prime.
+
 #include <iostream>
 #include <math.h>
 using namespace std;
