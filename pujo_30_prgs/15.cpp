@@ -47,3 +47,6 @@ int main()
     for (int i = 0; i < result.size(); i++)
         cout << " " << result[i];
 }
+
+// another approach
+// add one array after another in an ordered set and if insertion is false i.e., duplicate element is present then add to another ordered set contaiing only the duplicate elements but only once thus filtering out the intersection elements.
